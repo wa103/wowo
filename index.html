@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+<html lang="ja">
+<head>
+<body>
+<script>
+
+for(var a=1;a<30;a++)
+{
+var str = "01";
+
+var strLen = str.length;
+var wa = "";
+for (var i = 0; i < 50; i++) {
+  wa += str[Math.floor(Math.random() * strLen)];
+}
+console.log(wa);
+
+document.write(wa+"<BR>"+"<BR>")
+}
+</script>
+</body>
+</html>
